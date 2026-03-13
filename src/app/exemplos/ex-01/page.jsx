@@ -1,4 +1,4 @@
-function exemplo01 () {
+function Exemplo01 () {
     return(
         <div>
             <h1>exemplo 1</h1>
