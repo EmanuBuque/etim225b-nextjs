@@ -5,7 +5,7 @@ function Exemplo02() {
   return (
     <>
   <div>
-    <h1>exemplos</h1>
+    <h1></h1>
     </div>
     <div>
       <h1>atividades</h1>

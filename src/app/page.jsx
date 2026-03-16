@@ -1,20 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
-
-function Home() {
-  return (
-   
-  <div className={styles.containerHome}> 
-  <div className={styles.containerListas}> 
-    <h1>exemplos</h1>
-    </div>
-    <div className={styles.containerListas}>
-      <h1>atividades</h1>
-    </div>
-    </div>
-
-
-  );
+function exercicio () {
+    return(
+        <div className={styles.estilo1}>
+            <h1>exemplo 1</h1>
+            <p>componente basico para renderizar tela com react</p>
+        </div>
+    )
 }
-export default Home;
+
+export default exercicio
