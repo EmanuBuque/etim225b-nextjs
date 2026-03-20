@@ -1,17 +1,20 @@
-.estilo1 {
+.containerHome {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
     justify-content: space-evenly;
     height: 95vh;
     width: 100%;
     max-width: 124rem;
-    border: 0.2rem ;
 }
 
-
-.containerListas {
-    border: 0.2rem solid #f00;
-    height: 45vh;
-    width: 100%;
+.containerListas {     
+    display: flex; 
+    flex-direction: column;
+    border: 0.2rem solid #f00; 
+    height: 45vh; 
+    width: 100%; 
+    border-radius: 1rem; 
+    padding: 1rem; 
+    overflow-y: auto;
 }
