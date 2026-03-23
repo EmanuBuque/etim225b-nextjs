@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 96vh;
+}
+
+.texto {
+    font-size: 3.5rem; 
+    margin: 2rem 0;
+}
+
+.botao {
+    font-size: 3rem;
+    border: 0.3rem solid #000;
+    border-radius: 1rem; 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 1rem;
+}
+.botao:hover {
+    color: #fafafa;    
+    background-color: #000; 
+    cursor: pointer;
+}
