@@ -13,7 +13,9 @@ function Home() {
       </div>
       <div className={styles.containerListas}>
         <h1>Atividades</h1>
-        <Link href="/atividades/atv-01">Atividade 1</Link>
+        <Link href="/atividades/atv-1">Atividade 1</Link>
+          <Link href="/atividades/atv-2">Atividade 2</Link>
+            <Link href="/atividades/atv-3">Atividade 3</Link>
       </div>
     </div>
   );
