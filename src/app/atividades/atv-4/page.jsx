@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import styles from './page.module.css';
@@ -23,16 +23,21 @@ function Atividade04() {
     setInputValue({ id: '', quantidade: '', produto: '' });
   };
 
+  // Função para excluir item
+  const excluirItem = (id) => {
+    setDadosCadastrados(dadosCadastrados.filter(item => item.id !== id));
+  };
+
   return (
     <div className={styles.container}>
-      <h1>Formulário básico</h1>
+      <h1>Mercado</h1>
 
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           type="number"
           value={inputValue.quantidade}
           onChange={(e) => setInputValue({ ...inputValue, quantidade: e.target.value })}
-          placeholder="Qtd"
+          placeholder="Quantidade"
         />
         <input
           type="text"
@@ -51,6 +56,12 @@ function Atividade04() {
             <span className={styles.conteudo}>
               {item.quantidade}x {item.produto}
             </span>
+            <button 
+              onClick={() => excluirItem(item.id)}
+              className={styles.btnExcluir}
+            >
+              Excluir
+            </button>
           </li>
         ))}
       </ul>

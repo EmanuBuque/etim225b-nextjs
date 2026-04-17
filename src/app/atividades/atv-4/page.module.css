@@ -3,10 +3,10 @@
     max-width: 600px;
     margin: 2rem auto;
     padding: 2rem;
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f8fafc;
     border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 10 0px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .container h1 {
@@ -35,14 +35,14 @@
 }
 
 .form input:focus {
-    border-color: #3b82f6;
+    border-color: #af2323;
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 /* Botão */
 .form button {
     padding: 0.75rem;
-    background-color: #3b82f6;
+    background-color: #f63b3b;
     color: white;
     border: none;
     border-radius: 8px;
@@ -52,7 +52,7 @@
 }
 
 .form button:hover {
-    background-color: #2563eb;
+    background-color: #eb2525;
 }
 
 /* Lista de Itens */
